@@ -12,4 +12,8 @@ public class Song {
     public String displaySong() {
         return this.name + " - " + this.artist + " (" + this.playCount + ")";
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
