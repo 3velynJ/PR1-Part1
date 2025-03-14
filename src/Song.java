@@ -16,4 +16,8 @@ public class Song {
     public String getName() {
         return this.name;
     }
+
+    public int getPlayCount() {
+        return this.playCount;
+    }
 }
