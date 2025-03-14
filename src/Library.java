@@ -8,6 +8,7 @@ public class Library {
     }
 
     public void printSongs() {
+        System.out.println("Library: ");
         for (Song song : this.songs) {
             System.out.println(song.displaySong());
         }
