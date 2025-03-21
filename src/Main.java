@@ -1,8 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+        // Create a new library object to store songs
         Library library = new Library();
 
+        // Add ten songs to the library
         library.addSong("Close to me", "The Cure", 380017911);
         library.addSong("Your Woman", "White Town", 179325728);
         library.addSong("Crystalised", "The xx", 303816629);
@@ -14,6 +16,7 @@ public class Main {
         library.addSong("Luna", "The Smashing Pumpkins", 68487391);
         library.addSong("Too Shy", "Kajagoogoo", 77464362);
 
+        // Initialise and start the menu
         Menu menu = new Menu(library);
         menu.start();
     }
